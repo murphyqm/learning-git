@@ -1,4 +1,12 @@
-here's another text file
-here's another line in the file
+git branch NEW-BRANCH-NAME
+git checkout NEW-BRANCH-NAME
 
-and another line
+or - two in one: 
+git checkout -b NEW-BRANCH-NAME
+
+make some changes
+
+git add filenames
+git commit -m "message goes here"
+
+git push origin NEW-BRANCH-NAME
